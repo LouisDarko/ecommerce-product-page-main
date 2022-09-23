@@ -1,0 +1,83 @@
+@font-face {
+    font-family : "Kumbh Sans" ;
+    src : url(https://fonts.google.com/specimen/Kumbh+Sans) format("truetype");
+}
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : "Kumbh Sans" , sans-serif;
+     
+} 
+
+.nav-bar-container {
+   height: 100vh;
+   width : 100%;
+   background-size : cover;
+ 
+}
+
+nav {
+    display : flex;
+    align-items : left;
+    justify-content : space-between;
+    padding-top : 40px;
+    padding-left : 10%;
+    padding-right : 10%;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display : inline-block;
+    padding : 10px 20px;
+
+}
+
+nav ul li a {
+    color : black ;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color : hsl(26, 100%, 55%);
+    transition: .3s;
+}
+
+
+/* .logo-container {
+    display :inline-block;
+    padding : 10px 20px;
+
+} */
+
+.shopping-cart-container {
+    display : inline-block;
+    padding : 10px 20px;
+    align-items : right;
+    justify-content : space-between;
+   
+}
+
+.avatar-container {
+    display : inline-block;
+    padding : 10px 20px;
+    
+    align-items : right;
+    justify-content : flex-end ;
+   
+    
+    
+}
+
+img #avatar {
+    height : 0;
+    width : 0;
+
+}
+
+
+
