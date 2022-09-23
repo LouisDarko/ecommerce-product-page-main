@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | E-commerce product page</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<!-- reference to css stylesheet-->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<title>Frontend Mentor | E-commerce product page</title>
+		<link rel="favicon" type="image" href="images/favicon-32x32.png" />
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Collections
+  </style> -->
+	</head>
+	<body>
+		<!-- Collections
   Men
   Women
   About
@@ -38,7 +45,53 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    Coded by <a href="#">Your Name Here</a>. 
+  </div> -->
+		<header>
+			<div class="nav-bar-container">
+				<nav>
+					<div class="logo-container">
+						<img src="images/logo.svg" alt="logo" />
+					</div>
+					<ul>
+						<li><a href="#">Collections</a></li>
+						<li><a href="#">Men</a></li>
+						<li><a href="#">Women</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+
+          <div class="shopping-cart-container">
+            <img src="images/icon-cart.svg" alt="cart-icon" />
+          </div>
+    
+          <div class="avatar-container" id = "avatar">
+            <img src="images/image-avatar.png" alt="image-avatar" />
+          </div>
+				</nav>
+			</div>
+
+			
+		</header>
+
+		<section>
+			<div>
+				<div>
+					<img src = "images/image-product-1.jpg" alt ="sneaker image" />
+				</div>
+				<div>
+					<img src = "images/image-product-1-thumbnail.jpg" alt ="sneaker image-product-1-thumbnail" />
+				</div>
+				<div>
+					<img src = "images/image-product-2-thumbnail.jpg" alt ="sneaker image" />
+				</div>
+				<div>
+					<img src = "images/image-product-1.jpg" alt ="sneaker image" />
+				</div>
+				<div>
+					<img src = "images/image-product-1.jpg" alt ="sneaker image" />
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
